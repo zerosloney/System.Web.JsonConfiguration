@@ -1,0 +1,9 @@
+﻿{
+  "one": "2",
+  "two": "2.1",
+  "three": "x1",
+  "four": {
+    "minSize": "1",
+    "maxSize": "10"
+  }
+}
