@@ -12,7 +12,8 @@
 3. 然后，读取json文件中节点使用JsonConfigurationManager提高Get,GetInt,GetFloat,GetSection方法
 
 ##示例
-```javascript json文件
+### json文件
+```javascript 
 {
   "one": "1",
   "two": "2.1",
@@ -23,8 +24,8 @@
   }
 }
 ```
-
-```s WebApi中WebApiConfig配置Register注册
+### WebApi中WebApiConfig配置Register注册
+```s
 public static void Register(HttpConfiguration config)
 {
    // Web API 配置和服务
@@ -42,8 +43,8 @@ public static void Register(HttpConfiguration config)
 }
 ```
 
-
-```s json文件节点输出
+### json文件节点输出
+```s 
 public IHttpActionResult GetUser()
 {
     var one = JsonConfigurationManager.GetInt("one");
