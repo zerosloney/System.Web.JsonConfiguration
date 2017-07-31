@@ -9,7 +9,7 @@
 ## 使用
 1. 使用前，先在webapi中Register注册AddJsonFile
 2. 或者在Global.ashx中Application_Start启动JsonConfigurationManager.SetWatcher方法
-3. 然后，读取json文件中节点使用JsonConfigurationManager提高Get,GetInt,GetFloat,GetSection方法
+3. 然后，读取json文件中节点使用JsonConfigurationManager提供Get,GetInt,GetFloat,GetSection方法
 
 ##示例
 ### json文件
